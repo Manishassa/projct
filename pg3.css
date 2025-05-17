@@ -1,0 +1,162 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    /* box-sizing:content-box; */
+}
+.img1{
+  /* width: 1000px;
+  height: 1000px; */
+object-fit: fill;
+height: 100%;
+width: 100%;
+
+}
+
+.box1 {
+  height: 100%;
+  position: relative; /* Ensure .opac1 is positioned relative to .box1 */
+  width:100%;
+  position: fixed;
+}
+
+.opac1 {
+  position: absolute;
+  right: 0; /* Move it to the right edge */
+  background-color: rgb(3, 0, 0);
+  width: 50%;
+  height: 99%;
+  opacity: 0.4;
+   background-image: linear-gradient(rgb(9, 9, 0));
+   
+  /* margin-left: 150px; */
+  top:0;
+  /* transform:skew(-20deg); */
+  padding-left: 150px;
+}
+.text{
+  font-weight: 100;
+  top:40px;
+  color: rgb(238, 238, 235);
+  position: absolute;
+}
+.title{
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+  /* font-weight: 100; */
+  margin-left: 20px;
+ font-family: 'Poppins', sans-serif;}
+.subtitle{
+  margin-left:40px;
+  font-style:inherit;
+}
+
+
+.navi{
+  /* position: absolute; */
+  display: flex;
+  top: 30px;
+  right: 20px;
+  color: white;
+  /* margin-right: 110px; */
+  margin-top: 30px;
+ 
+}
+li{
+  display:inline;
+  
+  /* gap: 60px; */
+  /* flex-direction: row; */
+  /* margin-top: 30px; */
+  /* justify-content: center; */
+  /* text-align: center;
+  margin:  auto 0; */
+  
+  margin-left: 50px;
+  /* gap:50px; */
+  /* margin-right: 100px; */
+  /* position: fixed; */
+}
+.heading1 {
+  /* position: absolute; */
+  /* display: block; */
+  font-size:20px; 
+  color:rgb(245, 245, 245);
+
+  margin-right: 50px;
+}
+.pic1{
+  float:left;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+
+.con1{
+  color: rgb(240, 232, 232);
+  float: right;
+  
+  
+}
+.one{
+  display: flex;
+  margin-top: 0px;
+}
+.con1 .p1{
+  font-weight: bold;
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 70px;
+  line-height: 50px;
+}
+.con1 .pp1{
+  color: aliceblue;
+}
+  .pic2{
+  float:right;
+
+} 
+.p2{
+ font-weight: bold;
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 70px;
+  line-height: 50px;  
+}
+.pp2{
+    color: aliceblue;
+
+
+}
+.three{
+  display: flex;
+}
+.pic3{
+  margin-top: 80px;
+}
+.p3{
+ font-weight: bold;
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 100px;
+  /* line-height: 30px; */
+}
+.pp3{
+    color: aliceblue;
+    line-height: 20px;
+    
+
+}
+.con3{
+  float: right;
+  margin-left: 50px;
+}
+a:visited {
+  color: rgb(14, 112, 203);
+}
+
+/* Link on hover */
+a:hover {
+  color: rgb(16, 132, 36);
+  text-decoration: none; /* Optional */
+}

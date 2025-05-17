@@ -1,0 +1,141 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    /* box-sizing:content-box; */
+}
+.img1{
+  /* width: 1000px;
+  height: 1000px; */
+object-fit: fill;
+height: 100%;
+width: 100%;
+
+}
+
+.box1 {
+  height: 100%;
+  position: relative; /* Ensure .opac1 is positioned relative to .box1 */
+  width:100%;
+  position: fixed;
+}
+
+.opac1 {
+  position: absolute;
+  right: 0; /* Move it to the right edge */
+  background-color: rgb(31, 26, 26);
+  width: 50%;
+  height: 99%;
+  opacity: 0.4;
+   background-image: linear-gradient(rgba(56, 56, 54, 0.8));
+   
+  /* margin-left: 150px; */
+  top:0;
+  /* transform:skew(-20deg); */
+  padding-left: 150px;
+}
+.text{
+  font-weight: 100;
+  top:40px;
+  color: rgb(238, 238, 235);
+  position: absolute;
+}
+.title{
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+  /* font-weight: 100; */
+  margin-left: 20px;
+ font-family: 'Poppins', sans-serif;}
+.subtitle{
+  margin-left:40px;
+  font-style:inherit;
+}
+/* .navi{ */
+/* position: absolute;
+    /* top: 20px; /* Distance from the top */
+    /* right: 20px;  Distance from the right 
+    display: flex;
+    gap: 10px; Space between the items */ 
+    /* text-align: right; */
+
+/* }  */
+
+.navi{
+  /* position: absolute; */
+  display: flex;
+  top: 30px;
+  right: 20px;
+  color: white;
+  /* margin-right: 110px; */
+  margin-top: 30px;
+  /* margin-left: 30px; */
+  /* margin-bottom: 20px; */
+  /* gap: 10px; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* margin-left: 40px; */
+  /* letter-spacing: 50px; */
+}
+li{
+  display:inline;
+  
+  /* gap: 60px; */
+  /* flex-direction: row; */
+  /* margin-top: 30px; */
+  /* justify-content: center; */
+  /* text-align: center;
+  margin:  auto 0; */
+  
+  margin-left: 50px;
+  /* gap:50px; */
+  /* margin-right: 100px; */
+  /* position: fixed; */
+}
+.heading1 {
+  /* position: absolute; */
+  /* display: block; */
+  font-size:20px; 
+  color:rgb(245, 245, 245);
+
+  margin-right: 50px;
+}
+.content1{
+  /* display:absolute; */
+  /* bottom:500px; */
+  margin-top:90px;
+  /* margin-right: 20px; */
+/* margin-bottom: 20px; */
+margin-left: 45px;
+line-height: 25px;
+z-index:100 !important;
+
+color: aliceblue !important;
+}
+.line{
+ border:1px solid white;
+ gap:30px;
+ margin: 10px;
+ margin-right: 180px;
+ /* margin-left: 50px; */
+ /* left:50px; */
+}
+.button{
+  margin-top: 30px;
+  padding:10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: black;
+  font-weight: bold;
+  background-color: white ;
+  /* background-color: azure; */
+  /* z-index: 1000; */
+}
+a:visited {
+  color: rgb(14, 112, 203);
+}
+
+/* Link on hover */
+/* a:hover {
+  color: rgb(16, 132, 36);
+  text-decoration: none; /* Optional */
+ 
